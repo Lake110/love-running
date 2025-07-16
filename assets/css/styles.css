@@ -1,0 +1,19 @@
+/* Astrix style selector that overrides default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: lightcoral
+}
+/* Main Content */
+main {
+    background-color: lightblue;
+}
+/* Footer */
+footer {
+    background-color: orange;
+}
