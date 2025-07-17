@@ -148,6 +148,7 @@ hr {
   width: 90vw;
   background: url("../images/reasons-image.webp") no-repeat top center/ cover;
   margin-bottom: 20px;
+  margin-top: 10px;
   /* make it a circle */
   border-radius: 50%;
   max-width: 300px;
@@ -199,7 +200,7 @@ space in the row when there is any */
 
 /* Signup section */
 #signup {
-    background-image: url("/assets/images/Runner.png");
+    background-image: url("../images/Runner.png");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -208,7 +209,7 @@ space in the row when there is any */
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
+    padding: 10px;
 }
 #signup-form>h2 {
     color: #fafafa;
