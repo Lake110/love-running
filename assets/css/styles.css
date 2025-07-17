@@ -119,27 +119,27 @@ main {
   color: #ffffff;
 }
 #reasons {
-    width: 90%;
-    margin: 20px auto;
-  }
-  #reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 280%;
-  }
-  #benefits-physical > div,
-  #benefits-mental > div {
-    line-height: 20px;
-    margin-bottom: 20px;
-  }
-  #benefits p {
-    padding: 0 20px;
-  }
-  hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-  }
-  #circle-cover-bg {
+  width: 90%;
+  margin: 20px auto;
+}
+#reasons h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 280%;
+}
+#benefits-physical > div,
+#benefits-mental > div {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+#benefits p {
+  padding: 0 20px;
+}
+hr {
+  border-top: 1px solid #3a3a3a;
+  margin: 5px 0;
+}
+#circle-cover-bg {
   height: 90vw;
   width: 90vw;
   background: url("../images/reasons-image.webp") no-repeat top center/ cover;
@@ -175,10 +175,10 @@ space in the row when there is any */
   flex-basis: 200px;
   flex-grow: 1;
   /*creates a grid of meetup time divs over the background image */
-border: 2px solid white
+  border: 2px solid white;
 }
 
-#times h3{
+#times h3 {
   /*override the heading color for these h3's */
   color: #fafafa;
 }
@@ -234,23 +234,23 @@ border: 2px solid white
     width: 300px;
     right: 50px;
   }
-      /* Reasons section */
-    #benefit-physical,
-    #benefit-mental {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+  /* Reasons section */
+  #benefit-physical,
+  #benefit-mental {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    #benefit-physical>div,
-    #benefit-mental>div {
-        width: 75%;
-    }
+  #benefit-physical > div,
+  #benefit-mental > div {
+    width: 75%;
+  }
 
-    #benefit-mental>div {
-        text-align: end;
-        align-self: flex-end;
-    }
+  #benefit-mental > div {
+    text-align: end;
+    align-self: flex-end;
+  }
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -258,30 +258,30 @@ border: 2px solid white
     border-bottom: 1px solid #3a3a3a;
   }
 }
-@media screen and (min-width: 1200px) {    
-    /* Reasons section */
-    #benefits {
-        display: flex;
-        flex-direction: row;
-    }
+@media screen and (min-width: 1200px) {
+  /* Reasons section */
+  #benefits {
+    display: flex;
+    flex-direction: row;
+  }
 
-    #benefits > div {
-        flex: 1;
-    }
+  #benefits > div {
+    flex: 1;
+  }
 
-    #benefits-image {
-        order: 0
-    }
+  #benefits-image {
+    order: 0;
+  }
 
-    #benefit-mental {
-        order: 1;
-    }
+  #benefit-mental {
+    order: 1;
+  }
 
-    #benefit-mental > div {
-        align-self: flex-start;
-    }
+  #benefit-mental > div {
+    align-self: flex-start;
+  }
 
-    #benefit-physical > div {
-        align-self: flex-end;
-    }
+  #benefit-physical > div {
+    align-self: flex-end;
+  }
 }
