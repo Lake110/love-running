@@ -182,6 +182,16 @@ space in the row when there is any */
   /*override the heading color for these h3's */
   color: #fafafa;
 }
+
+/* Gallery section */
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
+}
 /* Footer */
 #social-networks {
   text-align: center;
