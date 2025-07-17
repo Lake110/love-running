@@ -25,6 +25,11 @@ h3 {
   letter-spacing: 2px;
   color: #252525;
 }
+
+.hidden-headings {
+  display: none;
+}
+
 /* Header */
 header {
   background-color: #ffffff;
@@ -151,7 +156,32 @@ main {
   justify-content: center;
 }
 
+/*meetup section */
+#times {
+  background: url("../images/ormskirk.jpg") no-repeat center center/ cover;
+  /* handles relative positioning without the need for media query */
+  display: flex;
+  flex-wrap: wrap;
+}
 
+#times div {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fafafa;
+  padding: 15px;
+  text-align: center;
+  /* It will stop this wrapping on screens that are too narrow to show two
+boxes next to each other, and they'll expand to take up the available
+space in the row when there is any */
+  flex-basis: 200px;
+  flex-grow: 1;
+  /*creates a grid of meetup time divs over the background image */
+border: 2px solid white
+}
+
+#times h3{
+  /*override the heading color for these h3's */
+  color: #fafafa;
+}
 /* Footer */
 #social-networks {
   text-align: center;
