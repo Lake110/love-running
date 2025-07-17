@@ -204,9 +204,24 @@ main {
     width: 300px;
     right: 50px;
   }
-  
-}
+      /* Reasons section */
+    #benefit-physical,
+    #benefit-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 
+    #benefit-physical>div,
+    #benefit-mental>div {
+        width: 75%;
+    }
+
+    #benefit-mental>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+}
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
   #menu a:hover {
