@@ -75,7 +75,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* Main Content */
@@ -83,6 +83,7 @@ main {
   background-color: lightblue;
   /* make elemenet fill the remaining space */
   flex: 1 0 auto;
+  margin-top: 47px;
 }
 /* Footer */
 footer {
